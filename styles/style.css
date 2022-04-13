@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    
+}
+header{
+    display: inline-flex;
+    
+    
+}
+
+header,footer {
+    min-width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+a{
+    color: aliceblue;
+}
+#logo {
+    width: 5em;
+    height: 5em;
+    text-decoration: none;
+    
+}
+
+ul {
+    display:inline-flex;
+    text-align: center;
+    color: white;
+    margin-left: 550px;
+    margin-top: 20px;
+   
+    
+}
+
+
+
+li {
+    list-style: none;
+    padding: 10px;
+    color: red;
+    display: inline;
+    text-align: center;
+    
+    
+}
+
+li a:hover{
+    background-color: white;
+    text-decoration: underline;
+    
+}
+
+
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main{
+    top: 100px;
+    bottom: 100px;
+    min-height: 100vh;
+    background-image: url(../images/itachi.png);
+    background-position: cover cover;
+    background-repeat: no-repeat;
+    background-position: -200px;
+}
+h2{
+    text-align: center;
+    padding-top: 1%;
+    color: white;
+    padding-bottom: 1%;
+    
+    
+}
+
+footer{
+    color: white;
+}
+
+p {
+    padding-top: 3%;
+    color: white;
+    font-size: medium;
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding-top: 1%;
+    margin-left: 400px;
+
+    
+  }
+
+
+  label,
+input {
+  /* In order to define widths */
+  display: inline-block;
+}
+
+label {
+    width: 30%;
+    /* Positions the label text beside the input */
+    text-align: right;
+  }
+  
+  label+input {
+    width: 30%;
+    /* Large margin-right to force the next element to the new-line
+             and margin-left to create a gutter between the label and input */
+    
+  }
+  
+  
+  /* Only the submit button is matched by this selector,
+         but to be sure you could use an id or class for that button */
+  
+  input+input {
+    float: left;
+
+  }
+
+ 
+  #ta{
+      margin-left: 231px;
+  }
+
+
+#sub {
+    margin-left: 270px;
+    width: 150px;
+
+}
